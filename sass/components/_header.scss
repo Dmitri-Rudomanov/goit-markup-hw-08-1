@@ -61,12 +61,16 @@
             line-height: 28px;
             letter-spacing: 0.02em;
             color: var(--grey-text-color);
+
                span{
                 font-weight: 500;
                 font-size: 34px;
                 line-height: 40px;
                 letter-spacing: 0.02em;
                 color: var(--active-color);
+                @media (max-width:480px) {
+                font-size: 24px;
+                }
                 
                }
            }
@@ -124,7 +128,7 @@
     border: 0;
     fill: var(--bold-text-color);
     background-color: transparent;
-    z-index: 1000;
+    z-index: 5;
     .icon-cross {
       display: none;
     &:hover,

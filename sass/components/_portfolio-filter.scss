@@ -6,12 +6,16 @@
     @media (max-width:768px) {
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 45px;
     }
 }
 .filter__item {
     margin-right: 8px;
     &:last-child {
     margin-right: 0px;
+}
+@media (max-width:768px) {
+margin-bottom: 15px;
 }
 }
 
