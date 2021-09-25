@@ -267,7 +267,7 @@ img {
     border: 0;
     fill: var(--bold-text-color);
     background-color: transparent;
-    z-index: 5;
+    z-index: 8;
   }
   .menu-burger .icon-cross {
     display: none;
