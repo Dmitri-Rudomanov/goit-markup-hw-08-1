@@ -4,7 +4,8 @@
     flex-wrap: wrap;
     margin-bottom: -30px;
     @media (max-width:768px) {
-    justify-content: center;
+    display: block;
+    text-align:center;
     }
 
 }
@@ -53,7 +54,7 @@ padding: 20px 24px;
 .card-portfolio__image{
     position: relative;
     overflow: hidden;
-
+    
 }
 .card-portfolio__hover{
     position: absolute;

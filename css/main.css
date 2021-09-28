@@ -1416,7 +1416,8 @@ img {
 
 @media (max-width: 768px) {
   .portfolio__cards {
-    justify-content: center;
+    display: block;
+    text-align: center;
   }
 }
 
