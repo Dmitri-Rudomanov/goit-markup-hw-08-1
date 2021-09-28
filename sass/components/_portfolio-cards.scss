@@ -10,13 +10,10 @@
 }
 .portfolio__card {
 margin-bottom: 30px;
-width: 100%;
-max-height: 404px;
 &:last-child{
     margin-bottom: 0;
 }
 @media (min-width:768px) {
-    max-height: 440px;
   width: calc((100% - 2 * 30px) / 2);
 margin-right: 30px;
 margin-bottom: 30px;
@@ -27,11 +24,9 @@ margin-bottom: 30px;
     margin-bottom: 0px;
     margin-right: 0px;
 }
-
 }
 @media (min-width:1200px) {
-    max-height: 404px;
-      width: calc((100% - 3 * 30px) / 3);
+    width: calc((100% - 3 * 30px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
     &:nth-child(2n){
@@ -58,7 +53,7 @@ padding: 20px 24px;
 .card-portfolio__image{
     position: relative;
     overflow: hidden;
-    max-height:294px ;
+
 }
 .card-portfolio__hover{
     position: absolute;
